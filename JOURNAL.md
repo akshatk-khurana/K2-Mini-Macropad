@@ -19,3 +19,14 @@ Following the tutorial, I lined up all my switches in the PCB editor, and placed
 ![](images/pcb_unrouted.png)
 
 **Total time spent:** 0.5h
+
+## 2nd of June: Still Hardware...
+I loaded up my PCB again, but it seemed that I had changed around some of my folders and paths, causing the Electrical Rules Checker in my schematic to throw a bunch of errors about finding symbols and associated footprints. I followed the initial part of Joe Scotto's tutorials on how to design mechanical keyboard PCBs where he went through how to properly import footprint and symbol libraries. With that done, I fixed some other errors on my schematic and replaced some of my previous symbols with those from the ScottoKicad library. The ERC showed no more errors, and my changed schematic looks like this.
+
+![](images/schematic_fixed.png)
+
+I've also finally managed to route up my PCB (after updating it to match the fixed up schematic) - it isn't the most neatly wired, and I had to use some vias, but I managed to get it done. The DRC also shows no errors or warnings, which is a good sign.
+
+![](images/pcb_routed.png)
+
+**Total time spent:** 3h
