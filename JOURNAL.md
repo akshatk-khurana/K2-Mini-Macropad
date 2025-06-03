@@ -30,3 +30,23 @@ I've also finally managed to route up my PCB (after updating it to match the fix
 ![](images/pcb_routed.png)
 
 **Total time spent:** 3h
+
+## 3rd of June: Designing the case!
+As the name of the Hackpad suggests, I want it to mimic the overall look of my Keychron K2. I've drawn up a quick sketch of exactly what I'm after.
+
+![](images/case_plan.jpg)
+
+My choice of CAD software for this is Onshape as I've used it quite a lot in the past.
+
+I watched Joe Scotto's [video](https://www.youtube.com/watch?v=7azQkSu0m_U&t=405s) on how to design cases for mechanical keyboards and it really dumbed down everything for me. After importing my DXF and making the plate, the bottom of the case was fairly simple to do. Pertaining to my Keychron inspired ideas as shown in the plan above, I added chamfers to each of the main edges and added an angle section at the bottom for better ergonomics.
+
+I've added pictures of the plate and bottom of the case below;
+
+![](images/plate.png)
+![](images/case_bottom.png)
+
+**Total time spent:** 2.5h
+
+I had some more time today, so after spending a lot of time going through QMK docs, I managed to get the firmware written - I've assigned everything from app opening shortcuts and other very-specific-to-me functions to each of the keys. The encoder will be used mainly for volume control.
+
+**Total time spent:** 1h
